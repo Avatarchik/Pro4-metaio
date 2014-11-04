@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BehaviourScript.cs" />
+     <Compile Include="Assets\RotateBehaviourScript.cs" />
      <Compile Include="Assets\WebCamBehaviourScript.cs" />
      <Compile Include="Assets\metaio\Classes\AssetsManager.cs" />
      <Compile Include="Assets\metaio\Classes\CameraType.cs" />
@@ -74,10 +76,10 @@
      <None Include="Assets\StreamingAssets\TrackingMaker1\Tracking.xml" />
      <None Include="Assets\Resources\metaio\UnlitTexture.shader" />
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/e125769/MetaioTest2/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>/Users/e125769/Development/Unity/MetaioTest2/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers.Serialization">
- <HintPath>/Users/e125769/MetaioTest2/Assets/Plugins/Google.ProtocolBuffers.Serialization.dll</HintPath>
+ <HintPath>/Users/e125769/Development/Unity/MetaioTest2/Assets/Plugins/Google.ProtocolBuffers.Serialization.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
