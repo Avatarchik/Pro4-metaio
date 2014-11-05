@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 1289a9ba8e4274cbdbf6d4cfdf5751ae
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: jarml
+    100002: jarmr
+    100004: jbody
+    100006: jhead
+    100008: jlegl
+    100010: jlegr
+    100012: joint11
+    100014: joint13
+    100016: joint5
+    100018: joint7
+    100020: joint9
+    100022: jupper
+    100024: jupper2
+    100026: //RootNode
+    100028: pbody
+    100030: pCone
+    100032: pCylinder1
+    100034: pfronthair
+    100036: pleftfoot
+    100038: plefthand
+    100040: podango
+    100042: polySurface3
+    100044: prightfoot
+    100046: prighthand
+    100048: pscarf
+    400000: jarml
+    400002: jarmr
+    400004: jbody
+    400006: jhead
+    400008: jlegl
+    400010: jlegr
+    400012: joint11
+    400014: joint13
+    400016: joint5
+    400018: joint7
+    400020: joint9
+    400022: jupper
+    400024: jupper2
+    400026: //RootNode
+    400028: pbody
+    400030: pCone
+    400032: pCylinder1
+    400034: pfronthair
+    400036: pleftfoot
+    400038: plefthand
+    400040: podango
+    400042: polySurface3
+    400044: prightfoot
+    400046: prighthand
+    400048: pscarf
+    2300000: pbody
+    2300002: pCone
+    2300004: pCylinder1
+    2300006: pfronthair
+    2300008: pleftfoot
+    2300010: plefthand
+    2300012: podango
+    2300014: polySurface3
+    2300016: prightfoot
+    2300018: prighthand
+    2300020: pscarf
+    3300000: pbody
+    3300002: pCone
+    3300004: pCylinder1
+    3300006: pfronthair
+    3300008: pleftfoot
+    3300010: plefthand
+    3300012: podango
+    3300014: polySurface3
+    3300016: prightfoot
+    3300018: prighthand
+    3300020: pscarf
+    4300000: plefthand
+    4300002: pCylinder1
+    4300004: prighthand
+    4300006: pCone
+    4300008: polySurface3
+    4300010: pfronthair
+    4300012: podango
+    4300014: pscarf
+    4300016: pbody
+    4300018: pleftfoot
+    4300020: prightfoot
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 1
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jbody
+        weight: 1
+      - path: jbody/jlegl
+        weight: 1
+      - path: jbody/jlegl/joint9
+        weight: 1
+      - path: jbody/jlegl/pleftfoot
+        weight: 1
+      - path: jbody/jlegr
+        weight: 1
+      - path: jbody/jlegr/joint13
+        weight: 1
+      - path: jbody/jlegr/prightfoot
+        weight: 1
+      - path: jbody/jupper
+        weight: 1
+      - path: jbody/jupper/jupper2
+        weight: 1
+      - path: jbody/jupper/jupper2/jhead
+        weight: 1
+      - path: jbody/jupper/jupper2/jhead/jarml
+        weight: 1
+      - path: jbody/jupper/jupper2/jhead/jarml/joint7
+        weight: 1
+      - path: jbody/jupper/jupper2/jhead/jarml/plefthand
+        weight: 1
+      - path: jbody/jupper/jupper2/jhead/jarmr
+        weight: 1
+      - path: jbody/jupper/jupper2/jhead/jarmr/joint11
+        weight: 1
+      - path: jbody/jupper/jupper2/jhead/jarmr/joint11/pCylinder1
+        weight: 1
+      - path: jbody/jupper/jupper2/jhead/jarmr/prighthand
+        weight: 1
+      - path: jbody/jupper/jupper2/jhead/joint5
+        weight: 1
+      - path: jbody/jupper/jupper2/jhead/pCone
+        weight: 1
+      - path: jbody/jupper/jupper2/jhead/pfronthair
+        weight: 1
+      - path: jbody/jupper/jupper2/jhead/podango
+        weight: 1
+      - path: jbody/jupper/jupper2/jhead/polySurface3
+        weight: 1
+      - path: jbody/jupper/pbody
+        weight: 1
+      - path: jbody/jupper/pscarf
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

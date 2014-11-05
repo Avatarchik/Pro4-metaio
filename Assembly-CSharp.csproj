@@ -46,9 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BehaviourScript.cs" />
-     <Compile Include="Assets\RotateBehaviourScript.cs" />
-     <Compile Include="Assets\WebCamBehaviourScript.cs" />
+     <Compile Include="Assets\MyScript\ARModelScript.cs" />
+     <Compile Include="Assets\MyScript\BehaviourScript.cs" />
+     <Compile Include="Assets\MyScript\GameManagerScript.cs" />
+     <Compile Include="Assets\MyScript\InputManagerScript.cs" />
+     <Compile Include="Assets\MyScript\RotateBehaviourScript.cs" />
+     <Compile Include="Assets\MyScript\WebCamBehaviourScript.cs" />
      <Compile Include="Assets\metaio\Classes\AssetsManager.cs" />
      <Compile Include="Assets\metaio\Classes\CameraType.cs" />
      <Compile Include="Assets\metaio\Classes\ColorFormat.cs" />
@@ -74,6 +77,7 @@
      <None Include="Assets\Plugins\Google.ProtocolBuffers.Serialization.xml" />
      <None Include="Assets\Plugins\Google.ProtocolBuffers.xml" />
      <None Include="Assets\StreamingAssets\TrackingMaker1\Tracking.xml" />
+     <None Include="Assets\CheerleaderAnimation\Documents\Readme.txt" />
      <None Include="Assets\Resources\metaio\UnlitTexture.shader" />
  <Reference Include="Google.ProtocolBuffers">
  <HintPath>/Users/e125769/Development/Unity/MetaioTest2/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>

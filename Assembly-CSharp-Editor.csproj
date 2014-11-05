@@ -54,6 +54,7 @@
      <None Include="Assets\Plugins\Google.ProtocolBuffers.Serialization.xml" />
      <None Include="Assets\Plugins\Google.ProtocolBuffers.xml" />
      <None Include="Assets\StreamingAssets\TrackingMaker1\Tracking.xml" />
+     <None Include="Assets\CheerleaderAnimation\Documents\Readme.txt" />
      <None Include="Assets\Resources\metaio\UnlitTexture.shader" />
  <Reference Include="Google.ProtocolBuffers">
  <HintPath>/Users/e125769/Development/Unity/MetaioTest2/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
