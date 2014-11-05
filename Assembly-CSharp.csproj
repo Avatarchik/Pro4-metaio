@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{7449029E-C089-81EE-527C-FF9F6483CF49}</ProjectGuid>
+	<ProjectGuid>{8DD47055-8AC0-5550-E350-B92CC3B45CE6}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -48,9 +48,13 @@
   <ItemGroup>
      <Compile Include="Assets\MyScript\ARModelScript.cs" />
      <Compile Include="Assets\MyScript\BehaviourScript.cs" />
+     <Compile Include="Assets\MyScript\FingerPositionScript.cs" />
      <Compile Include="Assets\MyScript\GameManagerScript.cs" />
      <Compile Include="Assets\MyScript\InputManagerScript.cs" />
+     <Compile Include="Assets\MyScript\LeapBehaviourScript.cs" />
+     <Compile Include="Assets\MyScript\NewBehaviourScript.cs" />
      <Compile Include="Assets\MyScript\RotateBehaviourScript.cs" />
+     <Compile Include="Assets\MyScript\SoundManagerScript.cs" />
      <Compile Include="Assets\MyScript\WebCamBehaviourScript.cs" />
      <Compile Include="Assets\metaio\Classes\AssetsManager.cs" />
      <Compile Include="Assets\metaio\Classes\CameraType.cs" />
@@ -80,10 +84,13 @@
      <None Include="Assets\CheerleaderAnimation\Documents\Readme.txt" />
      <None Include="Assets\Resources\metaio\UnlitTexture.shader" />
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/e125769/Development/Unity/MetaioTest2/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>/Users/e125722/Unity/MeLeap0_1/Pro4-metaio/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers.Serialization">
- <HintPath>/Users/e125769/Development/Unity/MetaioTest2/Assets/Plugins/Google.ProtocolBuffers.Serialization.dll</HintPath>
+ <HintPath>/Users/e125722/Unity/MeLeap0_1/Pro4-metaio/Assets/Plugins/Google.ProtocolBuffers.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="LeapCSharp.NET3.5">
+ <HintPath>/Users/e125722/Unity/MeLeap0_1/Pro4-metaio/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

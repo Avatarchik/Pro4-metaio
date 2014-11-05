@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{D0C17376-9F2A-9194-E354-B7A853BE98D3}</ProjectGuid>
+	<ProjectGuid>{05A991FA-380C-3B12-3B92-5F878A326AEE}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -57,10 +57,13 @@
      <None Include="Assets\CheerleaderAnimation\Documents\Readme.txt" />
      <None Include="Assets\Resources\metaio\UnlitTexture.shader" />
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/e125769/Development/Unity/MetaioTest2/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>/Users/e125722/Unity/MeLeap0_1/Pro4-metaio/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers.Serialization">
- <HintPath>/Users/e125769/Development/Unity/MetaioTest2/Assets/Plugins/Google.ProtocolBuffers.Serialization.dll</HintPath>
+ <HintPath>/Users/e125722/Unity/MeLeap0_1/Pro4-metaio/Assets/Plugins/Google.ProtocolBuffers.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="LeapCSharp.NET3.5">
+ <HintPath>/Users/e125722/Unity/MeLeap0_1/Pro4-metaio/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -68,7 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{7449029E-C089-81EE-527C-FF9F6483CF49}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{8DD47055-8AC0-5550-E350-B92CC3B45CE6}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
